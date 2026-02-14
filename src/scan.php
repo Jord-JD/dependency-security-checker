@@ -1,7 +1,7 @@
 <?php
 
-use DivineOmega\CliProgressBar\ProgressBar;
-use DivineOmega\DOFileCache\DOFileCache;
+use JordJD\CliProgressBar\ProgressBar;
+use JordJD\DOFileCache\DOFileCache;
 
 $vendorDirectory = realpath(__DIR__.'/../../../../vendor');
 if (!file_exists($vendorDirectory) || !is_dir($vendorDirectory)) {
