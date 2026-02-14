@@ -1,24 +1,34 @@
 {
-    "name": "divineomega/dependency-security-checker",
-    "description": "",
-    "type": "library",
-    "require": {
-        "divineomega/do-file-cache": "^2.0",
-        "jayzeng/virustotalapi": "^0.1.9",
-        "divineomega/php-cli-progress-bar": "^2.0",
-        "ext-zip": "*"
-    },
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\DependencySecurityChecker\\": "src/"
-        }
-    },
-    "bin": ["bin/dependency-security-checker"]
+  "name": "jord-jd/dependency-security-checker",
+  "description": "",
+  "type": "library",
+  "require": {
+    "divineomega/do-file-cache": "^2.0",
+    "jayzeng/virustotalapi": "^0.1.9",
+    "divineomega/php-cli-progress-bar": "^2.0",
+    "ext-zip": "*"
+  },
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\DependencySecurityChecker\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/dependency-security-checker"
+  ],
+  "replace": {
+    "jord-jd/dependency-security-checker": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
