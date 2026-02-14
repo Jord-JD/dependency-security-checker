@@ -24,7 +24,7 @@
     "bin/dependency-security-checker"
   ],
   "replace": {
-    "jord-jd/dependency-security-checker": "self.version"
+    "divineomega/dependency-security-checker": "self.version"
   },
   "extra": {
     "branch-alias": {
